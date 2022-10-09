@@ -1,4 +1,4 @@
-package com.one993.notescleanarchitecture
+package com.one993.notescleanarchitecture.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.one993.notescleanarchitecture.ui.navigation.Navigation
 import com.one993.notescleanarchitecture.ui.theme.NotesCleanArctictureAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
